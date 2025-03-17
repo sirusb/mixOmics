@@ -55,7 +55,7 @@ testing.
 install.packages("devtools")
 
 ## install latest github version of mixOmics
-devtools::install_github("mixOmicsTeam/mixOmics")
+devtools::install_github("sirusb/mixOmics")
 ```
 
 ### From Docker container
