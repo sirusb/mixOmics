@@ -680,7 +680,7 @@ network <- function(mat,
             ## see circosPlot
             color.blocks = brewer.pal(n = 12, name = 'Paired') #why 12?? ANS: bc max allowed n is 12 for this function
             if (length(blocks) > 6) {
-                color.blocks <- colorRampPalette(color.blocks)(2*length(object$X))
+                color.blocks <- colorRampPalette(color.blocks)(2*length(mat$X))
             }
             color.node = color.blocks[seq(from = 1, to = 2*length(blocks), by = 2)]
             color.node = adjustcolor(color.node, alpha.f = alpha.node)
